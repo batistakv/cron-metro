@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Stopwatch</h1>
+    </header>
+    <section>
+        <div>
+            <h1 id="contants">00:00:00</h1>
+        </div>
+        <div>
+            <p id="hours"></p>
+        </div>
+        <div>
+            <p id="botao">
+                <input class="botoes" type="button" value="Start" onclick="start()">
+                <input class="botoes" type="button" value="Pause" onclick="pause()">
+                <input class="botoes" type="button" value="Stop" onclick="stop()">
+            </p>
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
